@@ -1,0 +1,79 @@
+{
+  "_fv": 38,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 236,
+    "height": 89,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_carte_du_voyageur",
+          "text": {
+            "fixedValue": "Interdimentional Teleporter (Beta)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 121,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_survie",
+          "text": "Survie",
+          "onClick": {
+            "name": "Survivalprocedure"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 123,
+          "y": 122
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_minage",
+          "text": "Minage",
+          "onClick": {
+            "name": "MinageProcedure"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 244,
+          "y": 122
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lobby",
+          "text": "Lobby",
+          "onClick": {
+            "name": "Lobbyprocdedure"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 114
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

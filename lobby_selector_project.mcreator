@@ -1,0 +1,92 @@
+{
+  "mod_elements": [
+    {
+      "name": "Selector",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selector"
+    },
+    {
+      "name": "Survivalprocedure",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survivalprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinageProcedure",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minage_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lobbyprocdedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lobbyprocdedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.lobby_selector_project.selector.button_minage": "Minage",
+      "gui.lobby_selector_project.selector.button_survie": "Survie",
+      "gui.lobby_selector_project.selector.button_lobby": "Lobby",
+      "gui.lobby_selector_project.selector.label_carte_du_voyageur": "Interdimentional Teleporter (Beta)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lobby_selector_project",
+    "modName": "Lobby Selector Project",
+    "version": "1.0.0",
+    "author": "antonin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "fr.extradia.selector",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200452117
+}
